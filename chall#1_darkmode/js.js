@@ -14,10 +14,15 @@ const hoverHandler = () =>{
     main.innerText = "hover";
     main.style.color = "green";
 }
-const darkFn = () =>{
+
+const clickHandler = () =>{
+    main.innerText = "hover";
+    main.style.color = "blue";
 }
 
-const whiteFn = () =>{
+const rightHandler = () =>{
+    main.innerText = "hover";
+    main.style.color = "yellow";
 }
 
 const modeChange = () =>{
@@ -36,4 +41,6 @@ const modeChange = () =>{
 
 
 main.addEventListener("mouseover",hoverHandler);
+main.addEventListener("click", clickHandler);
+window.addEventListener("contextmenu",rightHandler );
 button.addEventListener("click", modeChange);
