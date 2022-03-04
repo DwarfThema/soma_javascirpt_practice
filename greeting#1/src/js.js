@@ -30,6 +30,7 @@ input.classList.add(INPUT_CLASSNAME);
 
 button.innerText = "click";
 input.placeholder = "Write Name";
+input.required = true;
 
 const submitName = (event) =>{
     event.preventDefault()
