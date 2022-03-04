@@ -1,0 +1,16 @@
+body{
+    display : flex;
+    flex-direction : column;
+    align-items : center;
+    justify-content : center;
+    height:100vh;
+}
+
+#greeting_id {
+    color : red;
+}
+
+
+.inputClass {
+    margin-right : 10px;
+}
